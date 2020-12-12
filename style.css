@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding: 40px;
+    background-color: whitesmoke;
+    border-top: 10px solid black;
+    margin:15px;
+    text-emphasis-color: blue;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4em;
+    text-decoration-color: goldenrod;
+}
+
+
+img {
+    width: 100%
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+    font-size:2em;
+    line-height: 84px;
+    height: 85px;
+}
+
+.card {
+    /*background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    display: inline-block;
+    
+    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
+    border: 1px solid #aaa;*/
+
+    background: #a3a3a3;
+    padding: 40px;
+
+}
+
+.cards {
+    display: flex;
+}
+
+. barrier {
+    border: 20px;
+}
+
+#c1 {
+    flex: 4;
+}
+
+.card .avatar {
+    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+
+}
+
+.card .icon {
+    width: 40px;
+}
+
+.card .contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
