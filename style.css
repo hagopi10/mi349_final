@@ -72,6 +72,11 @@ hdiv2 {
     flex: 4;
 }
 
+#c3 {
+    flex: 4;
+}
+
+
 .card .avatar {
     box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
     width: 100px;
